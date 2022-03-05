@@ -71,6 +71,7 @@ function MM_swapImage() {
 		}
 	}
 }
+/* ---deprecated---
 function submitSignUpForm() {
 	var name = document.getElementById("name").value;
 	if (name == "kenneth" || name == "kelvin" || name == "hklee") {
@@ -83,6 +84,11 @@ function submitSignUpForm() {
 		alert("Registration submitted. OwOb");
 		return true;
 	}
+}
+---deprecated--- */
+function submitSignUpForm() {
+	alert("Thanks for signing up! d(`･∀･)b");
+	document.getElementById("signup-form").reset();
 }
 function submitRating() {
 	alert("Thanks for rating! d(`･∀･)b");

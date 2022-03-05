@@ -6,10 +6,9 @@
 		<script type="text/javascript" src="scripts/ITP4827_Assignment_JS.js"></script>
 	</head>
 	<body>
-		<form class="f10" action="index.html" method="post" enctype="multipart/form-data"
-			onSubmit="return submitSignUpForm()">
+		<form class="f10" id="signup-form" action="thanks_signup.html" onSubmit="return submitSignUpForm()">
 			<h1>Sign Up</h1>
-			<input type="text" name="name" id="name" placeholder="Name" pattern="^[a-z ]+$" required="required" />
+			<input type="text" name="name" id="name" placeholder="Name" pattern="^[A-Za-z ]+$" required="required" />
 			<span>Gender: </span>
 			<input type="radio" name="gender" id="male" value="M" required="required" />
 			<label for="male">Male</label>
